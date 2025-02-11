@@ -255,10 +255,9 @@ body {
 
 /* Начало 4 секции Portfolio */
 
-.portfolio-container {
+.portfolio {
   padding: 120px 0;
 }
-
 .porfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -268,11 +267,11 @@ body {
 
 .porfolio-item {
   width: calc((100% - 48px) / 3);
+  border: 1px solid #e7e9fc;
 }
 
 .subcontainer-portfolio {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   border-top: none;
 }
 .subtitle {
