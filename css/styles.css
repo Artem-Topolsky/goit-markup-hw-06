@@ -128,7 +128,7 @@ body {
 
 /* Конец Хедера */
 
-/* Начало секции Hero */
+/* Начало 1секции Hero */
 .hero {
   background-color: #2e2f42;
   display: flex;
@@ -161,7 +161,7 @@ body {
   display: block;
   align-items: center;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin: 48px auto auto;
   border: none;
@@ -172,10 +172,15 @@ body {
   background-color: #404bbf;
 }
 
-/* Конец секции Hero */
+/* Конец 1 секции Hero */
 
-/* Начало секции без заголовка */
+/* Начало 2 секции без заголовка */
 
+.Solutions {
+  display: flex;
+  align-items: center;
+  padding: 120px 0;
+}
 .noname-container {
   display: flex;
   align-items: center;
@@ -188,12 +193,16 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .list {
   display: flex;
   align-items: center;
   gap: 24px;
   background-color: #ffffff;
+}
+.subtitle-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .text {
@@ -203,11 +212,14 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Конец секции без заголовка */
+/* Конец 2 секции без заголовка */
 
-/* Начало секции Team */
+/* Начало 3 секции Team */
 .team {
   background-color: #f4f4fd;
+  display: flex;
+  align-items: center;
+  padding: 120px 0;
 }
 
 .title {
@@ -218,10 +230,28 @@ body {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.team-item {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+.subcontainer {
+  padding: 32px 0;
 }
 
-.team-list {
-  background-color: #ffffff;
+.item-subtitle {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.team-subtext {
+  text-align: center;
 }
 
 .footer {
