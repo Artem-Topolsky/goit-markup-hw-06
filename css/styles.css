@@ -158,7 +158,6 @@ body {
   color: #ffffff;
   cursor: pointer;
   line-height: 1.5;
-  display: block;
   align-items: center;
   border-radius: 4px;
   min-width: 169px;
@@ -267,18 +266,17 @@ body {
 
 .porfolio-item {
   width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
 }
 
 .subcontainer-portfolio {
   padding: 32px 16px;
   border-top: none;
-}
-.subtitle {
-}
-.text {
+  border: 1px solid #e7e9fc;
 }
 
+/* Конец 4 секции Portfolio */
+
+/* Начало секции Footer */
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -298,3 +296,5 @@ body {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+
+/* Конец секции Footer */
