@@ -1,19 +1,8 @@
 * {
   box-sizing: border-box;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-  /* общие стили */
-}
+
+/* общие стили */
 h1,
 h2,
 h3,
@@ -128,7 +117,7 @@ body {
 
 /* Конец Хедера */
 
-/* Начало 1секции Hero */
+/* Начало 1 секции Hero */
 .hero {
   background-color: #2e2f42;
   display: flex;
@@ -175,9 +164,23 @@ body {
 
 /* Начало 2 секции без заголовка */
 
-.Solutions {
+.solutions {
   padding: 120px 0;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .noname-container {
   display: flex;
   align-items: center;
