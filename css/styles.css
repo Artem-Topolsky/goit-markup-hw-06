@@ -346,6 +346,11 @@ body {
   border-top: none;
 }
 
+.tumba {
+  position: relative;
+  overflow: hidden;
+}
+
 /* Конец 4 секции Portfolio */
 
 /* Начало секции Footer */
@@ -380,6 +385,10 @@ body {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+
+.list-icons-footer {
+  gap: 16px;
 }
 
 .footer-icon:focus,
