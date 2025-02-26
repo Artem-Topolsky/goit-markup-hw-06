@@ -466,6 +466,11 @@ input {
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #fff;
+  min-width: 165px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .subscribe-btn:hover,
 .subscribe-btn:focus {
@@ -474,10 +479,12 @@ input {
 
 .subscribe-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 .subscribe {
   display: flex;
   margin-top: 16px;
+  gap: 24px;
 }
 .subfootertext {
   font-weight: 500;
@@ -485,6 +492,7 @@ input {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 .subscr {
   display: flex;
@@ -494,15 +502,16 @@ input {
   width: 264px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: #2e2f42;
+  background-color: transparent;
   padding-left: 16px;
-}
-.subscr::placeholder {
-  color: #fff;
-  font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
+}
+.subscr::placeholder {
+  color: #fff;
 }
 /*#endregion секции Footer */
 

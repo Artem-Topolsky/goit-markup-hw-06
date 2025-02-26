@@ -437,7 +437,7 @@
     <!-- #region Footer -->
 
     <footer class="footer">
-      <div class="container footer-container">
+      <div class="footer-container">
         <div class="footer-sublogocontainer">
           <a href="./index.html" class="logo footer-logo"
             >Web<span class="footer-logo-text">Studio</span>
@@ -477,20 +477,22 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="footer-subscribe">
           <p class="subfootertext">Subscribe</p>
 
           <form class="subscribe">
+            <label for="email" class="form-label"></label>
             <input
               class="subscr"
               type="email"
-              name="Email"
+              name="email"
+              id="email"
               placeholder="E-mail"
               required
             />
 
             <button class="subscribe-btn" type="submit" name="subscribe">
-              Subscribe<svg class="subscribe-icon" width="24" height="20">
+              Subscribe<svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-sub"></use>
               </svg>
             </button>
