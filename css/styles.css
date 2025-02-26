@@ -454,6 +454,7 @@ input {
 }
 
 .subscribe-btn {
+  font-family: "Roboto", sans-serif;
   display: block;
   padding: 0;
   width: 165px;
@@ -463,15 +464,15 @@ input {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
   border-radius: 4px;
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #fff;
-  max-width: 165px;
+  color: #ffffff;
+  min-width: 165px;
   font-weight: 500;
   line-height: 1.5;
+  font-size: 16px;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
@@ -482,6 +483,7 @@ input {
 
 .subscribe-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 .subscribe {
   display: flex;
@@ -495,6 +497,7 @@ input {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 .subscr {
   border: 1px solid #fff;
