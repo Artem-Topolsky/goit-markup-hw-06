@@ -459,7 +459,6 @@ input {
   padding: 0;
   width: 165px;
   height: 40px;
-  margin-left: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -488,7 +487,7 @@ input {
 .subscribe {
   display: flex;
   margin-top: 16px;
-  margin-right: 24px;
+  gap: 24px;
 }
 
 .subfootertext {
