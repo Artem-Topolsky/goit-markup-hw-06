@@ -408,7 +408,6 @@ input {
 
 .footer-container {
   display: flex;
-  align-items: baseline;
 }
 
 .footer-sublogocontainer {
@@ -614,7 +613,7 @@ input {
 }
 
 .form {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 .modal-text {
   font-weight: 500;
@@ -651,7 +650,7 @@ input {
 }
 
 .textarea {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   display: block;
 }
 .comment-input {
