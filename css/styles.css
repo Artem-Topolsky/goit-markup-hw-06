@@ -624,35 +624,6 @@ input {
   display: block;
   margin-bottom: 4px;
 }
-.form-label:first-child {
-  margin-top: 0;
-}
-.accept-text {
-  display: flex;
-  margin-top: 16px;
-  align-items: center;
-  margin-bottom: 24px;
-}
-.label-text {
-  margin-bottom: 4px;
-  font-weight: 400;
-  font-size: 12px;
-
-  line-height: 1.16;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-}
-
-.etc {
-  line-height: 1.33;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  color: #4d5ae5;
-  font-weight: 400;
-  font-size: 12px;
-
-  letter-spacing: 0.04em;
-}
 
 .form-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -719,8 +690,14 @@ input {
 }
 
 .link-privacy {
-  color: #4d5ae5;
+  line-height: 1.33;
   text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+  font-weight: 400;
+  font-size: 12px;
+
+  letter-spacing: 0.04em;
 }
 
 .form-button {
