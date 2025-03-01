@@ -168,7 +168,7 @@ input {
   margin: auto;
 }
 
-.hero-container-overlay {
+.hero-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -664,7 +664,7 @@ input {
   color: rgba(46, 47, 66, 0.4);
   width: 100%;
   height: 120px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid #2e2f4266;
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
