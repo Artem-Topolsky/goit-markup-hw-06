@@ -506,6 +506,7 @@ input {
   flex-wrap: wrap;
   align-items: center;
   gap: 72px;
+  justify-content: center;
 }
 .team-item {
   background-color: #ffffff;
@@ -870,7 +871,7 @@ input {
   padding: 72px 16px 24px 16px;
   border-radius: 4px;
   width: 288px;
-  min-height: 584px;
+
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
@@ -1053,4 +1054,13 @@ input {
   background-color: #404bbf;
 }
 
+@media screen and (min-width: 768px) {
+  .modal-container {
+    width: 408px;
+    min-height: 584px;
+  }
+  .form-input {
+    width: 360px;
+  }
+}
 /*#endregion  Modal overlay*/
