@@ -998,10 +998,13 @@ input {
 }
 
 .privacy-label {
+  display: flex;
+  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  gap: 4px;
 }
 .privacy-label-span {
   width: 16px;
@@ -1016,7 +1019,7 @@ input {
   justify-content: center;
   fill: transparent;
 }
-.input-privacy:checked + label > span {
+.input-privacy:checked + .privacy-label .privacy-label-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
