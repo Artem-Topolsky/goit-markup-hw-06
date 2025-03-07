@@ -1018,6 +1018,7 @@ input {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  flex-shrink: 0;
 }
 .input-privacy:checked + .privacy-label .privacy-label-span {
   background-color: #404bbf;
@@ -1061,8 +1062,12 @@ input {
   .modal-container {
     width: 408px;
     min-height: 584px;
+    padding: 72px 24px 24px 24px;
   }
   .form-input {
+    width: 360px;
+  }
+  .comment-input {
     width: 360px;
   }
 }
