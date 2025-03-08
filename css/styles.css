@@ -514,21 +514,24 @@ input {
 .subcontainer {
   padding: 32px 0;
 }
-.subtitle {
+.item-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: left;
-}
-
-.item-subtitle {
   text-align: center;
   margin-bottom: 8px;
 }
+
 .team-subtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: #434455;
 }
 
 .list-icons {
@@ -575,11 +578,7 @@ input {
   .team-list {
     gap: 24px;
   }
-  .subtitle {
-    font-weight: 400;
-    line-height: 1.2;
-    font-size: 20px;
-  }
+
   .team-item {
     flex-basis: calc((100% - 72px) / 4);
   }
